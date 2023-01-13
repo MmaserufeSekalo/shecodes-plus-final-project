@@ -20,6 +20,44 @@
     <link rel="stylesheet" href="src/finalproject.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="app-wrap">
+        <h1>
+          <div class="header">Polokwane</div>
+        </h1>
+
+        <h2 class="latest-update" id="latest-update">
+          <span>Last updated:</span>
+          <span class="date" id="date">Friday</span>
+          <span class="time" id="time">18:24</span>
+          <span class="description" id="description"></span>
+        </h2>
+      </div>
+      <div class="weather-data">
+        <div class="row">
+          <div class="row">
+            <div class="col-3">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+                alt="Sunny"
+              />
+            </div>
+            <div class="col-3" id="current-temp">
+              27 <span class="unit" id="metric">°C</span>
+              <span class="imperial" id="imperial">°F</span>
+            </div>
+            <div class="col-6" >
+                <span class="humidity" >Himidity: <span id="humidity"> 40 </span><span>%</span></span>
+                <br/>
+                <span class="wind-speed" id="wind-speed"> Wind Speed: <span id="wind-speed">4</span>  <span>Km/H</span> </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"> <small><a href="https://github.com/MmaserufeSekalo/shecodes-plus-final-project" target="_blank">Open-sourced</a> by, Mmaserufe Sekalo</small></div>
+    </div>
+
     <script src="src/finalproject.js"></script>
   </body>
 </html>
