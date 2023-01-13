@@ -22,47 +22,70 @@
   <body>
     <div class="container">
       <div class="app-wrap">
-        <form >
-            <input type="text" placeholder="Type a city" class="form-control-sm">
-            <input type="submit" value="Search" class="btn btn-primary btn-sm">
-            <input type="submit" value="Current" class="btn btn-successv btn-sm">
+        <form>
+          <input
+            type="text"
+            placeholder="Type a city"
+            class="form-control-sm"
+          />
+          <input type="submit" value="Search" class="btn btn-primary btn-sm" />
+          <input
+            type="submit"
+            value="Current"
+            class="btn btn-success btn-sm"
+          />
         </form>
-            <h1>
-                 <div class="header">Polokwane</div>
-            </h1>
+        <h1>
+          <div class="header">Polokwane</div>
+        </h1>
 
-            <h2 class="latest-update" id="latest-update">
-                <span>Last updated:</span>
-                <span class="date" id="date">Friday</span>
-                <span class="time" id="time">18:24</span>
-                <span class="description" id="description"></span>
-            </h2>
-      
-      <div class="weather-data">
-        <div class="row">
+        <h2 class="latest-update" id="latest-update">
+          <span>Last updated:</span> <br/>
+          <span class="date" id="date">Friday</span>
+          <span class="time" id="time">18:24</span>
+          <span class="description" id="description"></span>
+        </h2>
+
+        <div class="weather-data">
           <div class="row">
-            <div class="col-3">
-              <img
-                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-                alt="Sunny"
-              />
-            </div>
-            <div class="col-3" id="current-temp">
-              27 <span class="unit" id="metric">°C</span>
-              <span class="imperial" id="imperial">°F</span>
-            </div>
-            <div class="col-6" >
-                <span class="humidity" >Himidity: <span id="humidity"> 40 </span><span>%</span></span>
-                <br/>
-                <span class="wind-speed" id="wind-speed"> Wind Speed: <span id="wind-speed">4</span>  <span>Km/H</span> </span>
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+                  alt="Sunny"
+                />
+              </div>
+              <div class="col-2" id="current-temp">27</div>
 
+              <div class="col-2">
+                <div class="units">
+                  <span class="unit" id="metric">°C</span>
+                  <span class="imperial" id="imperial">|°F</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <span class="humidity"
+                  >Himidity: <span id="humidity"> 40 </span><span>%</span></span
+                >
+                <br />
+                <span class="wind-speed" id="wind-speed">
+                  Wind Speed: <span id="wind-speed">4</span> <span>Km/H</span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-     
-    </div>
-     <div class="footer"> <small><a href="https://github.com/MmaserufeSekalo/shecodes-plus-final-project" target="_blank">Open-sourced</a> by, Mmaserufe Sekalo</small></div>
+      <div class="footer">
+        <small
+          ><a
+            href="https://github.com/MmaserufeSekalo/shecodes-plus-final-project"
+            target="_blank"
+            >Open-sourced</a
+          >
+          by, Mmaserufe Sekalo</small
+        >
+      </div>
     </div>
 
     <script src="src/finalproject.js"></script>
