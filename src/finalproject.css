@@ -1,4 +1,26 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background:#e7eaf6 ;
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #e7eaf6;
+}
+h1{
+    font-weight: 600;
+    opacity: 80%;
+}
+form{
+    display: block;
+    margin: 0 auto;
+    margin-top:15px ;
+    margin-left: 100px;
+}
+.app-wrap {
+  color:rgb(77, 61, 61);
+  max-width: 600px;
+  border: 1px solid rgb(130, 66, 66);
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#current-temp{
+font-size: 25px;
 }
