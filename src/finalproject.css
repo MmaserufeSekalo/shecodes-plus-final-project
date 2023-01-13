@@ -21,6 +21,26 @@ form{
   margin: 0 auto;
   margin-top: 10px;
 }
+.latest-update{
+    font-size: 20px;
+}
 #current-temp{
-font-size: 25px;
+font-size: 55px;
+position: relative;
+font-weight: 600;
+
+}
+.units{
+    position: relative;
+    right: 10px;
+    bottom: -10px;
+    font-size: 15px;
+}
+img{
+    width: 80px;
+}
+.footer {
+   max-width: 600px;
+   margin-left: 400px;
+   
 }
